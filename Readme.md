@@ -33,6 +33,7 @@ clone the repo:
 
 ```
 git clone https://github.com/securityclippy/goblockta.git
+go build
 sudo docker build . -t goblockta
 ```
 
@@ -69,8 +70,10 @@ edit config-example.json to match your org configuration and desired thresholds:
 
 ```
 
+
+Run:
 ```
-https://github.com/securityclippy/goblockta.git
+sudo docker run --rm -v $(pwd)/example-config.json:/var/config.json goblockta
 ```
 
 
