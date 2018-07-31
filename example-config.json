@@ -1,0 +1,31 @@
+{
+  "ip_zone_whitelist": [
+    {
+      "Type": "CIDR",
+      "Value": "127.0.0.1/32"
+    }
+  ],
+  "ip_whitelist": [
+    "1.1.1.1"
+  ],
+  "country_whitelist": [
+    "United States"
+  ],
+  "block_zone_names": [
+    "Blocked IP Addresses",
+    "Blocked IP Addresses2"
+  ],
+  "ban_on_number_of_failures": 5,
+  "ban_failure_window": 300,
+  "ban_duration": 300,
+  "whitelist_on_successful_mfa": true,
+  "org_url": "https://myorg.okta.com",
+  "okta_api_key": "long_random_okta_api_token_here",
+  "log_to_slack": true,
+  "slack_webhook_url": "https://hooks.slack.com/services/<long_random_string_from_slack_here>",
+  "slack_user": "my_slack_user",
+  "blocking_mode": false,
+  "warn_threshold": 1.0,
+  "block_threshold": 1.5
+}
+
