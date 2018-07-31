@@ -2,6 +2,8 @@
 
 :warning: :warning: :warning:THIS PROJECT IS PROVIDED COMPLETELY WITHOUT WARRANTY, SUPPORT, OR ANYTHING ELSE.  USE AT YOUR OWN RISK. :warning::warning::warning:
 
+This project is not supported by Okta in any way, shape or form
+
 
 
 
